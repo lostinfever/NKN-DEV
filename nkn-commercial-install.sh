@@ -25,10 +25,10 @@ rm -rf $NKN_DIR
 
 mkdir -p $NKN_COMMERCIAL_DIR
 
-step 1
+#step 1
 apt-get update -qq
 apt-get install -y unzip net-tools psmisc git htop nano haveged supervisor nginx
-step 1
+#step 1
 
 # step 2.1 (nkn config.mainnet.json)
 cd $NKN_DIR
